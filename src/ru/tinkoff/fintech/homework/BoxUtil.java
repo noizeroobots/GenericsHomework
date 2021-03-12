@@ -1,7 +1,7 @@
 package ru.tinkoff.fintech.homework;
 
 public class BoxUtil {
-    
+
     public class BoxUtil {
 
         // скопировать содержимое из одной коробки в другую
