@@ -1,10 +1,19 @@
 package ru.tinkoff.fintech.homework;
-
+/** Пункт 1. */
 public class Fruit {
 
-    private final boolean fresh;
+    private boolean fresh = true;
+
+    public boolean isFresh() {
+        return fresh;
+    }
+
+    public void setFresh(boolean fresh) {
+        this.fresh = fresh;
+    }
 
     public Fruit(boolean fresh) {
         this.fresh = fresh;
     }
+
 }
