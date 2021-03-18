@@ -1,14 +1,22 @@
 package ru.tinkoff.fintech.homework;
 /** Пункт 3. */
-public class Box<T> {
+public class Box<T extends Fruit> {
 
-    private T element;
+    private T fruit;
 
-    public T get() {
-        return element;
-    } //достать объект <T> из коробки
+    public Box(T fruit) {
+        this.fruit = fruit;
+    }
 
-    public void put(T element) {
-        this.element = element;
-    } // положить объект <T> в коробку
+    public Box() {
+
+    }
+
+    public T getFruit() {
+        return fruit;
+    }
+
+    public void setFruit(T fruit) {
+        this.fruit = fruit;
+    }
 }

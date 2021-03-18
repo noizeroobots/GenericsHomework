@@ -12,8 +12,5 @@ public class Fruit {
         this.fresh = fresh;
     }
 
-    public Fruit(boolean fresh) {
-        this.fresh = fresh;
-    }
 
 }
